@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Adyen podcast",
+    "slug": "adyen-podcast",
+    "version": "1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "buildNumber": "14",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.adyenpodcast.ios",
+      "infoPlist": {
+        "UIBackgroundModes": ["audio", "fetch"]
+      }
+    },
+    "android": {
+      "versionCode": 14,
+      "package": "com.adyenpodcast.android"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
